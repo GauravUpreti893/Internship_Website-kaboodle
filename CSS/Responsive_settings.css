@@ -1,0 +1,32 @@
+@media only screen and (max-width:783px){
+    #wrapper{
+        grid-template-columns: 1fr;
+    }
+    .features{
+        padding-left:20rem;
+        padding-right:20rem;
+        white-space: nowrap;             /******************************************************************/
+        
+    }
+    #bottom_image{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 4rem;
+    }
+}
+@media only screen and (min-height:830px){
+    #wrapper{
+        grid-template-columns: 1fr;
+    }
+    .features{
+        padding-left:30rem;
+        padding-right:30rem;
+        white-space: nowrap;             /******************************************************************/
+        
+    }
+    #bottom_image{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 4rem;
+    }
+}

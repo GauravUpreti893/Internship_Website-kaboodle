@@ -1,0 +1,1256 @@
+@media only screen and (max-width:900px){
+    #wrapper{
+        grid-template-columns: 1fr;
+        grid-gap:1rem;
+        box-sizing: content-box;
+    }
+    #sidebar{
+        box-sizing: content-box;
+        height:50rem;
+    }
+    #mainbox{
+        box-sizing: content-box;
+        padding-right:0.5rem;
+        height:50rem;
+        padding-top:4rem;
+    }
+   .features{
+       padding-left:26.5rem;
+       padding-right:25rem;
+   }
+   #dashfeature{
+    padding-left:25.5rem;
+   }
+   #logo{
+    display: flex;
+    justify-content: center;
+    /* padding-top:3rem; */
+    margin-top:3rem;
+    margin-bottom: 2.3rem;
+}
+.image img{
+    width: 31px;
+    height: 31px;
+}
+#logo img{
+    width:270px;
+    height:110px;
+}
+#dash{
+    width: 210px;
+    height: 55px;
+}
+.text{
+    display: flex;
+    align-items: center;
+}
+.text a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: 19px;
+}
+.features img{
+    margin-right: 0.7rem;
+}
+#bottom-image{
+    /* padding: 0.9rem 1rem; */
+    padding: 0.9rem 0;
+    display: flex;
+    /* margin-top:-1rem; */
+    justify-content: center;
+    padding-bottom:1rem;
+}
+#navicons{
+    position: absolute;
+    top:1rem;
+    left:1.5rem;
+    /* display: block; */
+    padding-left:0.2rem;
+    height:4rem;
+    /* width:20rem; */
+    /* justify-content: space-between; */
+}
+.icons img{
+    width:43px;
+}
+#notifications img{
+    height:40.75px;
+    width:35px;
+}
+/* #profile-container{
+    margin-right:0.5rem;
+} */
+.profileimg img{
+    /* margin:0 0.89rem; */
+    width:75px;
+    height:75px;
+}
+#name p{
+    font-size: 22px;
+}
+.slides{
+    height:140px;
+    width:240px;
+    margin-bottom: 2rem;
+}
+.slides img{
+    height:70px;
+    width:70px;
+    margin-bottom: 0.7rem;
+}
+#character{
+   
+    padding-left:0rem;
+    padding-right:0;
+}
+#upgrade button{
+    height:45px;
+    width:115px;
+    margin-top:0.4rem;
+    font-size: 17px;
+}
+#points{
+    margin-top: 1rem;
+}
+#avatar{
+    margin-top:3.5rem;
+}
+#avatarimg img{
+    height: 400px;
+}
+#avatar img{
+    margin-bottom: 1rem;
+}
+}
+@media only screen and (max-width:473px) and (max-heightz:489px){
+    #wrapper{
+        grid-template-columns: 1fr;
+    }
+    #mainbox{
+        grid-template-columns: 1fr;
+        height:fit-content;
+        /* height:100rem; */
+    }
+    #avatarimg img{
+        height:800px;
+    }
+    #avatarname h2{
+        padding-top:0.5rem;
+        font-size: 45px;
+    }
+    .slides{
+        height:300px;
+        width:550px;
+        margin-bottom:5rem;
+    }
+    .slides img{
+        height:150px;
+        width:150px;
+        margin-bottom: 0.7rem;
+    }
+    .slides p{
+        font-size: 35px;
+        font-weight: 1000;
+        padding-top: 0.4rem;
+    }
+    .achievements img{
+        width:80px;
+        height:80px;
+    }
+    #big img{
+        height: 180px;
+        /* width:500px; */
+        width:260px;
+    }
+    #top{
+        padding-top:2rem;
+        margin-bottom: 3.5rem;
+        height:210px;
+    }
+    #header{
+        margin-bottom: 1rem;
+    }
+    #header a{
+        font-size: 16px;
+        padding-right:2.5rem;
+    }
+    #header h2{
+        font-size: 22px;
+        padding-left:2rem;
+    }
+    .names p{
+        line-height: 33px;
+        font-size: 18px;
+    }
+    #upgrade button{
+        height:70px;
+        width:200px;
+        margin-top:0.4rem;
+        font-size: 30px;
+        margin-bottom: 3rem;
+    }
+    .special{
+        margin-top:0.15rem;
+        font-size: 40px;
+        margin-right:0.5rem;
+        /* padding:0.5rem; */
+        width:45px;
+        height:80px;
+        padding-bottom: 0.1rem;
+        margin-bottom: 1rem;
+    }
+    #heading h2{
+        font-size: 40px;
+        padding-bottom: 0.7rem;
+        padding-top: 1rem;
+    }
+}
+
+
+@media only screen and (max-height:696px)and (min-width:900px){
+    #daash{
+        margin-bottom:0.1rem;
+    }
+    .slides{
+        height:140px;
+        width:270px;
+        margin-bottom: 2rem;
+    }
+    .slides img{
+        height:75px;
+        width:75px;
+        margin-bottom: 0.7rem;
+    }
+    #avatarimg img{
+        height:350px;
+    }
+    #bottom-image img{
+        height:140px;
+    }
+}
+
+
+@media only screen and (max-height:658px) and (min-width:900px){
+    .slides{
+        height:140px;
+        width:270px;
+        margin-bottom: 2rem;
+    }
+    .slides img{
+        height:70px;
+        width:70px;
+        margin-bottom: 0.7rem;
+    }
+    #avatarimg img{
+        height:330px;
+    }
+    #bottom-image img{
+        margin-top:-0.3rem;
+        height:120px;
+    }
+    #avatarname{
+        margin-top:-3rem;
+        margin-bottom:1rem;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-height:644px)and (min-width:900px){
+    .slides p{
+        font-size: 19px;
+        font-weight:bolder;
+    }
+    .slides{
+        height:140px;
+        width:270px;
+        margin-bottom: 2rem;
+    }
+    .slides img{
+        height:75px;
+        width:75px;
+        margin-bottom: 0.7rem;
+    }
+    #avatarimg img{
+        height:330px;
+    }
+    #bottom-image img{
+        margin-top:-0.5rem;
+        height:115px;
+    }
+    #avatarname{
+        margin-top:-3rem;
+        margin-bottom:1rem;
+        font-size: 18.5px;
+    }
+     /* #logo{
+        padding-top:1rem;
+        margin-bottom: 1rem;
+    } */
+    
+}
+
+
+@media only screen and (max-height:636px) and (min-width:900px){
+    .slides p{
+        font-size: 19px;
+        font-weight:bolder;
+    }
+    .slides{
+        height:140px;
+        width:250px;
+        margin-bottom: 2rem;
+    }
+    .slides img{
+        height:75px;
+        width:75px;
+        margin-bottom: 0.7rem;
+    }
+    #avatarimg img{
+        height:310px;
+    }
+    #bottom-image img{
+        margin-top:-0.7rem;
+        height:100px;
+    }
+    #avatarname{
+        margin-top:-2.5rem;
+        font-size: 17px;
+        margin-bottom:0.7rem;
+    }
+    #logo{
+        padding-top:1rem;
+        margin-bottom: 1rem;
+    }
+    #mainbox{
+        padding:1.5rem 3.1rem;
+    }
+    #navicons{
+        padding-bottom: 0.5rem;
+    }
+    #heading h2{
+        font-size: 20px;
+        margin-top:-1.5rem;
+    }
+    #dash{
+        margin-bottom:0.6rem;
+    }
+    .features{
+        padding:0.6rem 2.8rem;
+    }
+    .special{
+        margin-top:0.6rem;
+        font-size: 26px;
+        margin-right:0.2rem;
+        /* padding:0.5rem; */
+        width:24px;
+        height:48px;
+        padding-bottom: 0.25rem;
+    }
+    #heading h2{
+        font-size: 20px;
+    }
+    #main{
+        margin-top:1.8rem;
+        justify-content: space-around;
+        padding-right:2rem;
+    }
+    .achievements img{
+        width:70px;
+        height:70px;
+    }
+    #big img{
+        height: 140px;
+        width:260px;
+    }
+    #top{
+        height:150px;
+    }
+    #header a{
+        font-size: 14px;
+    }
+    #header h2{
+        font-size: 19px;
+        padding-left:2rem;
+    }
+}
+
+@media only screen and (max-widht: 946px) {
+    #navicons{
+        position: absolute;
+        top:0.2rem;
+        right:1rem;
+        /* display: block; */
+        padding-left:0.2rem;
+        height:4rem;
+        /* justify-content: space-between; */
+    }
+}
+@media only screen and (max-height:574px) and (min-height: 525px)  and (min-width:900px){
+    #upgrade button{
+        cursor: pointer;
+        background-color: #FF7777;
+        height:33px;
+        width:105px;
+        font-size: 14.5px;
+        color: white;
+        outline: none;
+        border: none;
+        /* border:2px solid red; */
+        border-radius: 20px;
+        box-shadow:-3px 5px 15px rgba(255, 41, 41, 0.45);
+    }
+    #avatarname{
+        margin-bottom:0.6rem;
+        margin-top:-2rem;
+    }
+    #avatar{
+        margin-top: 1.5rem;
+    }
+    .special{
+        margin-top:0.3rem;
+        font-size: 24px;
+        margin-right:0.2rem;
+        /* padding:0.5rem; */
+        width:22px;
+        height:40px;
+        padding-bottom: 0.15rem;
+    }
+    #heading h2{
+        font-size: 19px;
+    }
+    .icons img{
+        width:38px;
+    }
+    #notifications img{
+        height:31.75px;
+        width:25px;
+    }
+    .profileimg img{
+        /* margin:0 0.89rem; */
+        width:60px;
+        height:60px;
+    }
+    #name p{
+        font-size: 16px;
+    }
+    #avatarimg img{
+        height:295px;
+    }
+    .slides{
+        height:120px;
+        width:240px;
+        margin-bottom: 2rem;
+    }
+    .slides img{
+        height:70px;
+        width:70px;
+        margin-bottom: 0.7rem;
+    }
+    #bottom-image img{
+        margin-top:-0.6rem;
+        height:90px;
+    }
+}
+
+@media only screen and (max-width:1396px) and (min-width:900px){
+    #wrapper{
+        grid-template-columns: 1fr 5.5fr;
+    }
+    .icons img{
+        width:38px;
+    }
+    #mainbox{
+        padding-bottom:1rem;
+    }
+    #notifications img{
+        height:31.75px;
+        width:25px;
+    }
+    .profileimg img{
+        /* margin:0 0.89rem; */
+        width:60px;
+        height:60px;
+    }
+    #name p{
+        font-size: 16px;
+    }
+    .slides{
+        height:60px;
+        width:160px;
+        padding:2rem;
+        margin-bottom: 2rem;
+    }
+    #big img{
+        height: 140px;
+        width:210px;
+    }
+    #top{
+        height:150px;
+        width:600px;
+    }
+    #header a{
+        font-size: 14px;
+    }
+    #header h2{
+        font-size: 19px;
+        padding-left:2rem;
+    }
+    .achievements img{
+        width:50px;
+        height:60px;
+    }
+    
+    #character{
+        padding-left:4rem;
+        margin-top:0.7rem;
+    }
+    .special{
+        margin-top:0.3rem;
+        font-size: 24px;
+        margin-right:0.2rem;
+        /* padding:0.5rem; */
+        width:22px;
+        height:40px;
+        padding-bottom: 0.15rem;
+    }
+    #heading h2{
+        font-size: 19px;
+    }
+    .icons img{
+        width:38px;
+    }
+    #notifications img{
+        height:31.75px;
+        width:25px;
+    }
+    .profileimg img{
+        /* margin:0 0.89rem; */
+        width:60px;
+        height:60px;
+    }
+    .features{
+        display: flex;
+        /* justify-content: center; */
+        padding: 0.8rem 0rem;
+        padding-left:1.5rem;
+        padding-right:1.5rem;
+    }
+    #dashfeature{
+        padding-left:1rem;
+    }
+    #logo img{
+        width:150px;
+    }
+    #dash{
+        width:145px;
+    }
+    .slides img{
+        height:65px;
+        width:65px;
+        margin-bottom: 0.7rem;
+    }
+}
+@media only screen and (max-width:1236px) and (min-width:900px){
+    #heading h2{
+        font-size: 18px;
+    }
+    .icons img{
+        width:33px;
+    }
+    #notifications img{
+        height:27.75px;
+        width:20px;
+    }
+    .profileimg img{
+        /* margin:0 0.89rem; */
+        width:50px;
+        height:50px;
+    }
+    .features{
+        display: flex;
+        /* justify-content: center; */
+        padding: 0.8rem 0rem;
+        padding-left:1rem;
+        padding-right:1rem;
+    }
+    .text a{
+        font-size: 13.5px;
+    }
+    #dashfeature{
+        padding-left:0.7rem;
+    }
+    .slides{
+        height:70px;
+        width:140px;
+        padding:2rem;
+        margin-bottom: 2rem;
+    }
+    #mainbox{
+        grid-template-columns: 1.5fr 1fr;
+        padding:2.6rem 1.5rem;
+        padding-right:1rem;
+    }
+    #top{
+        height:140px;
+        width:600px;
+    }
+    #big img{
+        height: 130px;
+        width:190px;
+    }
+    #header a{
+        font-size: 13px;
+    }
+    #header h2{
+        font-size: 17px;
+        padding-left:1rem;
+    }
+    #header{
+        display: block;
+        padding-bottom:0.3rem;
+
+    }
+    #ancor{
+        display: inline-block;
+    }
+    #header h2{
+        display: inline-block;
+        margin-right:8rem;
+    }
+    #bottom-image img{
+        margin-top:-0.6rem;
+        height:90px;
+    }
+}
+@media only screen and (max-width:1114px)  and (min-width:900px){
+    #top{
+        height:140px;
+        width:490px;
+        /* display: block; */
+        /* margin-right:2rem; */
+    }
+    #big img{
+        height: 130px;
+        width:190px;
+    }
+    #header h2{
+        margin-right:3rem;
+    }
+    .achievements img{
+        width:45px;
+        height:54px;
+    }
+    .achievements{
+        height:90px;
+        width:90px;
+    }
+    .names{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:980px)  and (min-width:900px){
+    #top{
+        height:140px;
+        width:450px;
+        /* display: block; */
+        /* margin-right:2rem; */
+    }
+    .achievements{
+        height:90px;
+        width:70px;
+    }
+    #header h2{
+        margin-right:0.5rem;
+    }
+    .slides{
+        height:60px;
+        width:100px;
+        padding:2rem;
+        margin-bottom: 2rem;
+    }
+    .slides img{
+        height:50px;
+        width:50px;
+        margin-bottom: 0.7rem;
+    }
+    .slides p{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:1346px) and (max-height:563px) and (min-width:900px){     /*1346*/
+    #wrapper{
+        grid-template-columns: 1fr 5.5fr;
+    }
+    #avatarimg img{
+        height:250px;
+    }
+    #avatarname h2{
+        font-size: 18px;
+    }
+    #top{
+        height:120px;
+        width:500px;
+        grid-template-columns: 1fr 2.5fr;
+        /* display: block; */
+        /* margin-right:2rem; */
+    }
+    .achievements{
+        height:70px;
+        width:70px;
+    }
+    .achievements img{
+        width:35px;
+        height:40px;
+    }
+    .achievements{
+        height:70px;
+        width:70px;
+    }
+    .names{
+        font-size: 12px;
+    }
+    #header h2{
+        margin-right:6rem;
+        padding-left:1rem;
+    }
+    #big img{
+        height:110px;
+        width:150px;
+    }
+    .achievements img{
+        width:30px;
+        height:34px;
+    }
+    .slides{
+        height:50px;
+        width:100px;
+        padding:2rem;
+        margin-bottom: 2rem;
+        margin-right:2rem;
+    }
+    .slides img{
+        height:50px;
+        width:50px;
+        margin-bottom: 0.7rem;
+    }
+    .slides p{
+        font-size: 13px;
+    }
+    .features{
+        display: flex;
+        /* justify-content: center; */
+        padding: 0.5rem 0rem;
+        padding-left:0.8rem;
+        padding-right:0.5rem;
+    }
+    .features img{
+        width:20px;
+        height: 20px;
+    }
+    .text a{
+        font-size: 11px;
+    }
+    #dashfeature{
+        padding-left:0.7rem;
+    }
+    #bottom-image img{
+        margin-top:0rem;
+        height:70px;
+        display:inline-block;
+        /* display: none; */
+    }
+    #upgrade button{
+        height:30px;
+        width:80px;
+        font-size: 13px;
+    }
+    .special{
+        margin-top:0.15rem;
+        font-size: 20px;
+        margin-right:0.2rem;
+        /* padding:0.5rem; */
+        width:19px;
+        height:35px;
+        padding-bottom: 0.1rem;
+    }
+    #heading h2{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-height:561px) and (max-width:980px) and (min-width:797px){
+    #wrapper{
+        grid-template-columns: 1fr 5.5fr;
+        height: fit-content;
+    }
+    #logo{
+        margin-top:0.1rem;
+        margin-bottom:1.5rem;
+    }
+    #logo img{
+        height:60px;
+        width:90px;
+    }
+    #mainbox{
+        height: fit-content;
+    }
+    #top{
+        height:100px;
+        width:400px;
+        grid-template-columns: 1fr 2.5fr;
+        /* display: block; */
+        /* margin-right:2rem; */
+    }
+    #sidebar{
+        height: fit-content;
+        width:fit-content;
+    }
+    .achievements img{
+        width:50px;
+        height:50px;
+    }
+    .text a{
+        font-size: 11px;
+    }
+    #dashfeature{
+        padding-left:0.7rem;
+    }
+    #dash{
+        width:150px;
+        height: 50px;
+    }
+    #big img{
+        height: 130px;
+        /* width:500px; */
+        width:230px;
+    }
+    .achievements{
+        height:60px;
+        width:55px;
+    }
+    #header h2{
+        margin-right:0.5rem;
+        padding-left:1rem;
+        font-size: 15px;
+    }
+    #header a{
+        font-size: 13px;
+    }
+    .slides{
+        height:50px;
+        width:80px;
+        padding:2rem;
+        margin-bottom: 2rem;
+    }
+    .slides img{
+        height:40px;
+        width:40px;
+        margin-bottom: 0.7rem;
+    }
+    .slides p{
+        font-size: 13px;
+    }
+    #big img{
+        height:90px;
+        width:100px;
+    }
+    .achievements img{
+        width:30px;
+        height:34px;
+    }
+    .achievements{
+        height:70px;
+        width:70px;
+    }
+    .names{
+        font-size: 11px;
+    }
+    #header h2{
+        margin-right:3rem;
+    }
+    #navicons{
+        position: absolute;
+        top:0.2rem;
+        right:1rem;
+        /* display: block; */
+        padding-left:0.2rem;
+        height:4rem;
+        /* justify-content: space-between; */
+    }
+   #character{
+       padding-left: 0rem;
+    }
+    #heading h2{
+        margin-top:2rem;
+        font-size: 15px;
+    }
+    .icons img{
+        width:27px;
+    }
+    #notifications img{
+        height:23.75px;
+        width:18px;
+    }
+    #name p{
+        font-size: 13px;
+    }
+    .profileimg img{
+        /* margin:0 0.89rem; */
+        width:35px;
+        height:35px;
+    }
+    .features{
+        display: flex;
+        /* justify-content: center; */
+        /* padding: 0.3rem 0rem; */
+        padding-left:1rem;
+        padding-right:1rem;
+    }
+    .text a{
+        font-size: 13.5px;
+    }
+    #dashfeature{
+        padding-left:0.7rem;
+    }
+    #bottom-image img{
+        margin-top:-0.6rem;
+        height:90px;
+        display: none;
+    }
+    #logo img{
+        width:140px;
+    }
+    #avatarimg img{
+        height:250px;
+    }
+    #avatarname h2{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-height:488px) and (max-width:792px) and (min-width:325px){
+    #wrapper{
+        grid-template-columns: 1fr 5.5fr;
+        height: fit-content;
+    }
+    #top{
+        height:100px;
+        width:400px;
+        grid-template-columns: 1fr 2.5fr;
+        /* display: block; */
+        /* margin-right:2rem; */
+    }
+    .achievements{
+        height:65px;
+        width:60px;
+    }
+    #big img{
+        height:90px;
+        width:100px;
+    }
+    .achievements img{
+        width:30px;
+        height:34px;
+    }
+    .achievements{
+        height:70px;
+        width:70px;
+    }
+    .names{
+        font-size: 11px;
+    }
+    /* #header h2{
+        margin-right:3rem;
+    } */
+    #header h2{
+        margin-right:0.5rem;
+        padding-left:1rem;
+    }
+    .slides{
+        height:25px;
+        width:70px;
+        padding:2rem;
+        margin-bottom: 2rem;
+        border-radius: 25px;
+    }
+    .slides img{
+        height:35px;
+        width:35px;
+        margin-bottom: 0.7rem;
+       
+    }
+    .slides p{
+        font-size: 12px;
+    }
+   
+    #navicons{
+        position: absolute;
+        top:0.2rem;
+        right:1rem;
+        /* display: block; */
+        padding-left:0.2rem;
+        height:4rem;
+        /* justify-content: space-between; */
+    }
+   #character{
+       padding-left: 0rem;
+    }
+    #heading h2{
+        margin-top:2rem;
+        font-size: 15px;
+    }
+    .icons img{
+        width:27px;
+    }
+    #notifications img{
+        height:23.75px;
+        width:18px;
+    }
+    #name p{
+        font-size: 13px;
+    }
+    .profileimg img{
+        /* margin:0 0.89rem; */
+        width:35px;
+        height:35px;
+    }
+    .features{
+        display: flex;
+        /* justify-content: center; */
+        padding: 0.3rem 0rem;
+        padding-left:0.8rem;
+        padding-right:0.5rem;
+    }
+    .features img{
+        width:20px;
+        height: 20px;
+    }
+    .text a{
+        font-size: 11px;
+    }
+    #dashfeature{
+        padding-left:0.7rem;
+    }
+    #bottom-image img{
+        margin-top:-0.6rem;
+        height:70px;
+        display:inline-block;
+        /* display: none; */
+    }
+    #logo{
+        margin-top:0.5rem;
+    }
+    #logo img{
+        width:120px;
+        height: 70px;
+    }
+    #avatarimg img{
+        height:200px;
+    }
+    #avatarname h2{
+        padding-top:0.5rem;
+        font-size: 16px;
+    }
+    #upgrade button{
+        height:30px;
+        width:80px;
+        font-size: 13px;
+    }
+    .special{
+        margin-top:0.15rem;
+        font-size: 20px;
+        margin-right:0.2rem;
+        /* padding:0.5rem; */
+        width:19px;
+        height:35px;
+        padding-bottom: 0.1rem;
+    }
+    #heading h2{
+        font-size: 17px;
+    }
+    #main{
+        height: fit-content;
+        padding-right:0;
+    }
+    #mainbox{
+        height: fit-content;
+    }
+    #sidebar{
+        height: fit-content;
+    }
+    #dashfeature{
+        padding-left:0.3rem;
+    }
+
+    #dash{
+        width:110px;
+    }
+}
+@media only screen and (max-height:432px) and (min-width:485){
+    #wrapper{
+        grid-template-columns: 1fr 5.5fr;
+    }
+    #top{
+        height:80px;
+        width:300px;
+        grid-template-columns: 1fr 2.5fr;
+        /* display: block; */
+        /* margin-right:2rem; */
+    }
+    .achievements{
+        height:50px;
+        width:50px;
+    }
+    #header h2{
+        margin-right:0.5rem;
+        padding-left:1rem;
+    }
+    #main{
+        /* padding-right:1rem; */
+        padding-left:1rem;
+        padding-right:0;
+    }
+    .slides{
+        height:27px;
+        width:75px;
+        padding:1rem;
+        /* margin-right: 1rem; */
+        margin-bottom: 1rem;
+        margin-right: 2rem;
+        border-radius: 20px;
+        box-shadow:6px 5px 10px rgba(0, 0, 0, 0.2886274509803922);
+    }
+    .slides img{
+        height:30px;
+        width:30px;
+        margin-bottom: 0.3rem;
+       
+    }
+    .slides p{
+        font-size: 10px;
+    }
+    #big img{
+        height:70px;
+        width:80px;
+    }
+    .achievements img{
+        width:25px;
+        height:30px;
+    }
+    .achievements{
+        height:50px;
+        width:50px;
+    }
+    .names{
+        font-size: 9px;
+    }
+    #header h2{
+        margin-right:2rem;
+        font-size: 13px;
+    }
+    #ancor a{
+        font-size: 10px;
+    }
+    #heading h2{
+        margin-top:1rem;
+        font-size: 13px;
+    }
+    #navicons{
+        position: absolute;
+        top:0.2rem;
+        right:1rem;
+        /* display: block; */
+        padding-left:0.2rem;
+        height:4rem;
+        /* justify-content: space-between; */
+    }
+   #character{
+       padding-left: 0rem;
+    }
+  
+    .icons img{
+        width:27px;
+    }
+    #notifications img{
+        height:23.75px;
+        width:18px;
+    }
+    #name p{
+        font-size: 13px;
+    }
+    .profileimg img{
+        /* margin:0 0.89rem; */
+        width:35px;
+        height:35px;
+    }
+    .features{
+        display: flex;
+        /* justify-content: center; */
+        padding: 0.3rem 0rem;
+        padding-left:0.8rem;
+        padding-right:0.5rem;
+    }
+    .features img{
+        width:20px;
+        height: 20px;
+    }
+    .text a{
+        font-size: 11px;
+    }
+    #dashfeature{
+        padding-left:0.7rem;
+    }
+    #bottom-image{
+        padding: 0;
+        margin:0;
+    }
+    #bottom-image img{
+        margin-top:-0.6rem;
+        height:70px;
+       
+        /* display:inline-block; */
+        display: none;
+    }
+    #logo img{
+        width:120px;
+    }
+    #avatar{
+        margin-top:1rem;
+    }
+    #avatarimg img{
+        height:170px;
+    }
+    #avatarname h2{
+        font-size: 16px;
+        padding-top: 0.5rem;
+    }
+    #upgrade button{
+        height:21px;
+        width:70px;
+        font-size: 11px;
+        margin-top:-0.1rem;
+    }
+    .special{
+        margin-top:0.1rem;
+        font-size: 18px;
+        margin-right:0.2rem;
+        /* padding:0.5rem; */
+        width:17px;
+        height:30px;
+        padding-bottom: 0.1rem;
+    }
+    #heading h2{
+        font-size: 15px;
+    }
+    
+    #dashfeature{
+        padding-left:0.3rem;
+    }
+
+    #dash{
+        width:110px;
+    }
+    #second{
+        padding-top: 0.2rem;
+    }
+}
