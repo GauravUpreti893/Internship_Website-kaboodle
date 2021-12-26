@@ -3,8 +3,8 @@
         grid-template-columns: 1fr;
     }
     .features{
-        padding-left:20rem;
-        padding-right:20rem;
+/*         padding-left:20rem;
+        padding-right:20rem; */
         white-space: nowrap;             /******************************************************************/
         
     }
@@ -19,8 +19,8 @@
         grid-template-columns: 1fr;
     }
     .features{
-        padding-left:30rem;
-        padding-right:30rem;
+/*         padding-left:30rem;
+        padding-right:30rem; */
         white-space: nowrap;             /******************************************************************/
         
     }
