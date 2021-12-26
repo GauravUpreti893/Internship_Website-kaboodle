@@ -2,31 +2,24 @@
     #wrapper{
         grid-template-columns: 1fr;
     }
+    #sidebar{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    #logo{
+        display: inline-block;
+    }
     .features{
-/*         padding-left:20rem;
+        /* padding-left:20rem;
         padding-right:20rem; */
         white-space: nowrap;             /******************************************************************/
-        
+        padding-left:2rem;
+        padding-right: 0;
     }
     #bottom_image{
-        display: flex;
-        justify-content: center;
+        /* display: flex;
+        justify-content: center; */
         padding-bottom: 4rem;
-    }
-}
-@media only screen and (min-height:830px){
-    #wrapper{
-        grid-template-columns: 1fr;
-    }
-    .features{
-/*         padding-left:30rem;
-        padding-right:30rem; */
-        white-space: nowrap;             /******************************************************************/
-        
-    }
-    #bottom_image{
-        display: flex;
-        justify-content: center;
-        padding-bottom: 4rem;
+        padding-left: 0;
     }
 }
