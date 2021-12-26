@@ -1,4 +1,7 @@
 @media only screen and (max-width:900px){
+     *{
+        zoom:90%;
+   }
     #wrapper{
         grid-template-columns: 1fr;
         grid-gap:1rem;
@@ -124,6 +127,9 @@
 }
 }
 @media only screen and (max-width:473px) and (max-heightz:489px){
+     *{
+        zoom:90%;
+   }
     #wrapper{
         grid-template-columns: 1fr;
     }
