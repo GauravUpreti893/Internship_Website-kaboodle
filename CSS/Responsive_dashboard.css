@@ -1,215 +1,64 @@
 @media only screen and (max-width:900px){
-     *{
+    *{
         zoom:90%;
-   }
+    }
     #wrapper{
         grid-template-columns: 1fr;
-        grid-gap:1rem;
-        box-sizing: content-box;
+        /* height:150rem; */
     }
     #sidebar{
-        box-sizing: content-box;
-        height:50rem;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        /* height: 150rem; */
     }
-    #mainbox{
-        box-sizing: content-box;
-        padding-right:0.5rem;
-        height:50rem;
-        padding-top:4rem;
+    #logo{
+        display: inline-block;
     }
-   .features{
-       padding-left:26.5rem;
-       padding-right:25rem;
-   }
-   #dashfeature{
-    padding-left:25.5rem;
-   }
-   #logo{
-    display: flex;
-    justify-content: center;
-    /* padding-top:3rem; */
-    margin-top:3rem;
-    margin-bottom: 2.3rem;
-}
-.image img{
-    width: 31px;
-    height: 31px;
-}
-#logo img{
-    width:270px;
-    height:110px;
-}
-#dash{
-    width: 210px;
-    height: 55px;
-}
-.text{
-    display: flex;
-    align-items: center;
-}
-.text a{
-    text-decoration: none;
-    color:black;
-    font-weight: bold;
-    font-size: 19px;
-}
-.features img{
-    margin-right: 0.7rem;
-}
-#bottom-image{
-    /* padding: 0.9rem 1rem; */
-    padding: 0.9rem 0;
-    display: flex;
-    /* margin-top:-1rem; */
-    justify-content: center;
-    padding-bottom:1rem;
-}
-#navicons{
-    position: absolute;
-    top:1rem;
-    left:1.5rem;
-    /* display: block; */
-    padding-left:0.2rem;
-    height:4rem;
-    /* width:20rem; */
-    /* justify-content: space-between; */
-}
-.icons img{
-    width:43px;
-}
-#notifications img{
-    height:40.75px;
-    width:35px;
-}
-/* #profile-container{
-    margin-right:0.5rem;
-} */
-.profileimg img{
-    /* margin:0 0.89rem; */
-    width:75px;
-    height:75px;
-}
-#name p{
-    font-size: 22px;
-}
-.slides{
-    height:140px;
-    width:240px;
-    margin-bottom: 2rem;
-}
-.slides img{
-    height:70px;
-    width:70px;
-    margin-bottom: 0.7rem;
-}
-#character{
-   
-    padding-left:0rem;
-    padding-right:0;
-}
-#upgrade button{
-    height:45px;
-    width:115px;
-    margin-top:0.4rem;
-    font-size: 17px;
-}
-#points{
-    margin-top: 1rem;
-}
-#avatar{
-    margin-top:3.5rem;
-}
-#avatarimg img{
-    height: 400px;
-}
-#avatar img{
-    margin-bottom: 1rem;
-}
+    .features{
+        /* padding-left:20rem;
+        padding-right:20rem; */
+        white-space: nowrap;             /******************************************************************/
+        padding-left:2rem;
+        padding-right: 0;
+    }
+    #bottom_image{
+        /* display: flex;
+        justify-content: center; */
+        padding-bottom: 4rem;
+        padding-left: 0;
+        padding-right:0;
+        display: inline-block;
+    }
 }
 @media only screen and (max-width:473px) and (max-heightz:489px){
-     *{
+    *{
         zoom:90%;
-   }
+    }
     #wrapper{
         grid-template-columns: 1fr;
     }
+    #sidebar{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
     #mainbox{
         grid-template-columns: 1fr;
-        height:fit-content;
-        /* height:100rem; */
     }
-    #avatarimg img{
-        height:800px;
+    #logo{
+        display: inline-block;
     }
-    #avatarname h2{
-        padding-top:0.5rem;
-        font-size: 45px;
-    }
-    .slides{
-        height:300px;
-        width:550px;
-        margin-bottom:5rem;
-    }
-    .slides img{
-        height:150px;
-        width:150px;
-        margin-bottom: 0.7rem;
-    }
-    .slides p{
-        font-size: 35px;
-        font-weight: 1000;
-        padding-top: 0.4rem;
-    }
-    .achievements img{
-        width:80px;
-        height:80px;
-    }
-    #big img{
-        height: 180px;
-        /* width:500px; */
-        width:260px;
-    }
-    #top{
-        padding-top:2rem;
-        margin-bottom: 3.5rem;
-        height:210px;
-    }
-    #header{
-        margin-bottom: 1rem;
-    }
-    #header a{
-        font-size: 16px;
-        padding-right:2.5rem;
-    }
-    #header h2{
-        font-size: 22px;
+    .features{
+        /* padding-left:20rem;
+        padding-right:20rem; */
+        white-space: nowrap;             /******************************************************************/
         padding-left:2rem;
+        padding-right: 0;
     }
-    .names p{
-        line-height: 33px;
-        font-size: 18px;
-    }
-    #upgrade button{
-        height:70px;
-        width:200px;
-        margin-top:0.4rem;
-        font-size: 30px;
-        margin-bottom: 3rem;
-    }
-    .special{
-        margin-top:0.15rem;
-        font-size: 40px;
-        margin-right:0.5rem;
-        /* padding:0.5rem; */
-        width:45px;
-        height:80px;
-        padding-bottom: 0.1rem;
-        margin-bottom: 1rem;
-    }
-    #heading h2{
-        font-size: 40px;
-        padding-bottom: 0.7rem;
-        padding-top: 1rem;
+    #bottom_image{
+        /* display: flex;
+        justify-content: center; */
+        padding-bottom: 4rem;
+        padding-left: 0;
     }
 }
 
