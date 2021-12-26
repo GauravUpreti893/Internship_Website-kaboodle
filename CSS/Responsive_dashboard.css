@@ -1149,18 +1149,21 @@
     }
     .special{
         margin-top:1rem;
-        font-size: 34px;
+        font-size: 55px;
         margin-right:0.4rem;
         /* padding:0.5rem; */
-        width:29px;
-        height:60px;
+        width:50px;
+        height:90px;
         padding-bottom: 0.1rem;
     }
     #heading h2{
-        font-size: 35px;
+        font-size: 40px;
     }
     #avatarname h2{
         font-size: 46px;
         padding-top: 0.5rem;
+    }
+    #dashfeature{
+        padding-left:1.1rem;
     }
 }
